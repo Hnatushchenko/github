@@ -1,0 +1,4 @@
+url=git@github.com:Lean35inc/OpenOfficeXmlWrapper.git
+url=git@github.com:Lean35inc/LuminaryOne-coreplatform.git
+
+https://magview.atlassian.net/wiki/spaces/TP/pages/3553165313/Patient+ID+Type+Specification+-+Multiple+IDs

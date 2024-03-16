@@ -1,0 +1,31 @@
+var patient = new Patient()
+        {
+            Id = 1,
+            PatientTags = new List<PatientTag>()
+            {
+                new PatientTag()
+                {
+                    Value = "14123",
+                    Tag = new Tag()
+                    {
+                        Order = 2,
+                        Prompt = "prompt",
+                        Description = "Desk",
+                        IsShowOnMainEnabled = true,
+                        IsEditAllowed = true,
+                    }
+                },
+                new PatientTag()
+                {
+                    Value = "value2",
+                    Tag = new Tag()
+                    {
+                        Order = 1,
+                        Prompt = "Prompt2",
+                        Description = "Desk2 lorem",
+                        IsShowOnMainEnabled = true,
+                        IsEditAllowed = true,
+                    }
+                }
+            }
+        };

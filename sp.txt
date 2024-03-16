@@ -1,0 +1,72 @@
+https://github.com/Lean35inc/LuminaryOne-coreplatform/commit/56c31ff54b0bc05b325904a365d3989295ddae40
+https://github.com/Lean35inc/luminaryone/compare/feature/Patient-ID-Type-Specification-Multiple-IDs-v2
+https://github.com/Lean35inc/luminaryone/commit/3bc99e97bace9a8b896e732654703a36fbfc9731
+https://github.com/Lean35inc/luminaryone/compare/a89993bf4d8b3b8fd81991b047b3ab9466c318ab..98701df7fda7e05f605bbdcee857ad41c126dffe
+https://bitbucket.org/magview/%7B98adcf47-ec27-44d0-a253-12965854835b%7D/commits/8e5b37a5bdfa046e09fd7c790c84719b7c15aa80
+https://bitbucket.org/magview/magviewcoreplatform/commits/743caefc87bd59532c707e3f262045fcbd2c0471
+
+https://github.com/Lean35inc/luminaryone/commit/832ce6e944a871316da517cc0949c6dff629ba89 - Patient Details Modal Improvement
+https://github.com/Lean35inc/luminaryone/commit/144508b421f1b03c3d70d15db46231e18c197bea - L1-1709 DayLight Saving and Timezone architecture simplification
+https://github.com/Lean35inc/luminaryone/commit/8bc415f8ec09982534c46b5996ea09192d0ba7cf - л1 truncate
+https://github.com/Lean35inc/LuminaryOne-coreplatform/commit/56c31ff54b0bc05b325904a365d3989295ddae40 - from core platform
+
+https://github.com/Lean35inc/luminaryone/commit/18a8a3ec69581136a61e34c2f1c8c7733302ca84 - Patient Details MOdal improvement
+https://github.com/Lean35inc/luminaryone/commit/56bb88b5fa01103d2e01544d1214a416266c2873 //feature_team1/Epic_Integration_Code_Mappings_UI
+
+
+finished 
+https://github.com/Lean35inc/luminaryone/commit/70af4bac0e353b1184e74e1faa8bcd96eb6047c0 - L1-2152 The tooltip for t
+https://github.com/Lean35inc/luminaryone/commit/6d5595227894cd8a94d819d4229d4548e3e07350 //feature_team1/Epic_Integration_Code_Mappings_UI
+
+https://github.com/Lean35inc/luminaryone/commit/70af4bac0e353b1184e74e1faa8bcd96eb6047c0
+https://github.com/Lean35inc/luminaryone/commit/6d5595227894cd8a94d819d4229d4548e3e07350
+
+https://github.com/Lean35inc/luminaryone/commit/53732d2d818e0ae734c8a22407b3878e0daf9411
+
+
+07/03
+https://github.com/Lean35inc/luminaryone/commit/5f6e1fa9f1acef22f25676dce73ca44b0d404098 - Finish handlers
+https://bitbucket.org/%7B%7D/%7B98adcf47-ec27-44d0-a253-12965854835b%7D/commits/49813302edecdbbb95281dd01b6d42de32f674da
+https://bitbucket.org/%7B%7D/%7B98adcf47-ec27-44d0-a253-12965854835b%7D/commits/41b218a561eb7cec0a74951ed684df8063a6ccd2
+
+https://github.com/Lean35inc/luminaryone/commit/5f6e1fa9f1acef22f25676dce73ca44b0d404098
+https://bitbucket.org/%7B%7D/%7B98adcf47-ec27-44d0-a253-12965854835b%7D/commits/49813302edecdbbb95281dd01b6d42de32f674da
+https://bitbucket.org/%7B%7D/%7B98adcf47-ec27-44d0-a253-12965854835b%7D/commits/41b218a561eb7cec0a74951ed684df8063a6ccd2
+
+08/03
+https://bitbucket.org/%7B%7D/%7B98adcf47-ec27-44d0-a253-12965854835b%7D/commits/2f528f87d4e1c5a9511fa7d03b03c19e3c8aa1cc - last bug fix
+https://bitbucket.org/%7B%7D/%7B98adcf47-ec27-44d0-a253-12965854835b%7D/commits/d8d0f9684be3a1608c3ec191c0db4d5c2b668013 - summary-bug-fix
+https://bitbucket.org/%7B%7D/%7B98adcf47-ec27-44d0-a253-12965854835b%7D/commits/a2bafbcac6781b8b185f45eff07d2a91436e473b - age fix
+https://bitbucket.org/%7B%7D/%7B98adcf47-ec27-44d0-a253-12965854835b%7D/commits/29533679fee9f7276cb2b240a1f025963382d488 - age init
+
+https://bitbucket.org/%7B%7D/%7B98adcf47-ec27-44d0-a253-12965854835b%7D/commits/2f528f87d4e1c5a9511fa7d03b03c19e3c8aa1cc
+https://bitbucket.org/%7B%7D/%7B98adcf47-ec27-44d0-a253-12965854835b%7D/commits/d8d0f9684be3a1608c3ec191c0db4d5c2b668013
+https://bitbucket.org/%7B%7D/%7B98adcf47-ec27-44d0-a253-12965854835b%7D/commits/a2bafbcac6781b8b185f45eff07d2a91436e473b
+https://bitbucket.org/%7B%7D/%7B98adcf47-ec27-44d0-a253-12965854835b%7D/commits/29533679fee9f7276cb2b240a1f025963382d488
+
+11.03
+https://github.com/Lean35inc/luminaryone/commit/94cc3ded31527be16e029060b100c911c0067d03  History Cache Improvement v2
+https://github.com/Lean35inc/luminaryone/commit/276af370e40a1bf891f73f845a9a1fdec6217904 - Duration 
+https://github.com/Lean35inc/luminaryone/commit/dca0d0f3cd5b2c4c6bae3524ff999274e013865b - L1-2366 Create library contract for NCCN
+
+https://github.com/Lean35inc/luminaryone/commit/94cc3ded31527be16e029060b100c911c0067d03
+https://github.com/Lean35inc/luminaryone/commit/276af370e40a1bf891f73f845a9a1fdec6217904
+https://github.com/Lean35inc/luminaryone/commit/dca0d0f3cd5b2c4c6bae3524ff999274e013865b
+
+12/03
+https://github.com/Lean35inc/luminaryone/commit/8a1bcd067d33a79faaa643eadb13eda2d3fb2053 - Duration
+https://github.com/Lean35inc/luminaryone/commit/0d8f71cc8d61ae6ce7dcc74e678657156d7adfcc + patches ui bugfix
+https://bitbucket.org/%7B%7D/%7B98adcf47-ec27-44d0-a253-12965854835b%7D/commits/d732ab01d8f7712afe9914cf46dc7f99ecb76091 - L1-2792 The "Clear All" button
+
+https://github.com/Lean35inc/luminaryone/commit/8a1bcd067d33a79faaa643eadb13eda2d3fb2053
+https://github.com/Lean35inc/luminaryone/commit/0d8f71cc8d61ae6ce7dcc74e678657156d7adfcc
+https://bitbucket.org/%7B%7D/%7B98adcf47-ec27-44d0-a253-12965854835b%7D/commits/d732ab01d8f7712afe9914cf46dc7f99ecb76091
+
+13/03
+https://github.com/Lean35inc/luminaryone/commit/3a8fc4c34215260e6736e74a115b0fd072e987f0
+https://github.com/Lean35inc/luminaryone/commit/a05baf2fc1c20dc1d68231fb82f0ac217083771f
+
+14/03
+https://bitbucket.org/%7B%7D/%7B98adcf47-ec27-44d0-a253-12965854835b%7D/commits/dece1341b8af1dace7b7413f2199f19e4c11557d - Late fix
+https://bitbucket.org/%7B%7D/%7B98adcf47-ec27-44d0-a253-12965854835b%7D/commits/2615cdd738a15a96d0a907732f2dcf1d7c9e1d33 - remove comments
+https://bitbucket.org/%7B%7D/%7B98adcf47-ec27-44d0-a253-12965854835b%7D/commits/d6c83e0e71f3c08c193383a7cfe2846114bda286 - use mainExctendedFilterModel

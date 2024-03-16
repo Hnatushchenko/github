@@ -1,0 +1,88 @@
+// drop cdc
+
+EXEC sys.sp_cdc_disable_db
+GO
+
+select * from MigrationJobStatus
+select * from MigrationQueue
+select * from PostMigrationJobStatus
+select * from DataSyncQueue
+select * from DataSyncJobStatus
+
+select [Status], count(*)
+ from MigrationQueue group by [Status]
+
+
+--select * from Tag
+insert into Tag([Order], IsShowOnMainEnabled, IsBlankAllowed, IsEditAllowed, [Description], [Prompt], 
+IsSearchable, IsPrimary, [Format], [SearchOrder]) values(1, 1, 1, 1, 'desk', 'prm', 1, 1, 'form', 1)
+
+insert into PatientTag(PatientId, TagId, Value) values (4, 7, 'tag-value')
+
+select * from Patient
+
+
+
+SELECT *
+FROM Patient
+WHERE NOT EXISTS (
+    SELECT 1
+    FROM PatientTag
+    WHERE PatientTag.PatientID = Patient.Id
+    AND PatientTag.TagId = 8
+);
+
+select * from Tag
+
+delete from Tag where Id > 10;
+
+select * from PatientTag
+join Patient on Patient.Id = PatientTag.PatientId
+where Patient.FirstName = 'Andrii'
+
+--select Patient.* from Patient
+--join PatientTag on PatientTag.PatientId = Patient.Id
+--join Tag on PatientTag.TagId = Tag.Id
+--where Tag.IsPrimary = 1
+
+--select dbo.GetPatientMrnOrPrimaryAlternativeIdentifier2(Patient.Id) as Identifier, Patient.* from patient
+
+
+CREATE FUNCTION dbo.GetPatientMrnOrPrimaryAlternativeIdentifier2(@PatientId bigint)
+RETURNS NVARCHAR(100)
+AS
+BEGIN
+    DECLARE @Identifier NVARCHAR(100)
+    SELECT @Identifier = CASE
+                    WHEN NOT EXISTS (SELECT 1 FROM Tag WHERE IsPrimary = 1 and TagType = 0)
+                        THEN (select Patient.Mrn from Patient where Patient.Id = @PatientId)
+                    ELSE
+                       (select top(1) PatientTag.Value from PatientTag
+                       where PatientTag.PatientId = @PatientId and PatientTag.TagId = (SELECT TagId FROM Tag WHERE IsPrimary = 1))
+                  END
+    RETURN @Identifier
+END
+
+
+select * from Patient
+
+select * from Race
+
+insert into Race(Name, Code) values ('R1', 'R1code')
+
+insert into Patient(Mrn, FirstName, LastName, Sex, RaceId, DateOfBirth) values ('mrn', 'fn', 'ln', 0, 2, GETDATE())
+
+
+insert into CodeMappings(ExternalCodeSystem, ExternalCode, InnerCode, InnerCategory) values ('1', '2','3','4') 
+
+
+
+// SET PASSWORD TO 
+update [User]
+set PasswordHashed = 'RlBsyZojm+EKm2yr4S5qaE6QYH8=',
+PasswordSalt = 'vU2mkyo6K8qo9iyqnPY7kfXoODifUOw2DtKFUG9dd+IMkLfKjgOuFL2ZuuOisqN0ttBd3JDz3jMRRmfHznwrhL9mZSRVKRwZHD4z7g==Yp8Be3nugkd'
+where Email = 'SysAdmin'
+
+update [User]
+set IsLocked = 0,
+FailedLogIns = 0,

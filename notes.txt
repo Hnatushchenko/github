@@ -1,0 +1,26 @@
+
+
+
+;Initial Catalog=LuminaryOne_regression_1.6.8.0RC5_MGH
+Integrated Security=True
+http://localhost:8065
+git@github.com:Lean35inc/LuminaryOne-coreplatform.git
+Юджин - team2
+My Skype: live:.cid.dc53478a1b9188af
+git log -p hs
+
+generate patch from last commit: IN TERMINAL NOT BASH
+git show HEAD > multi-save-to.patch
+
+using Core.Extensions;
+Undo commit:git reset HEAD~
+
+http://localhost:4200/patients/details/6?view=exams&mode=examDetails&dSortColumn=0&dSortDirection=desc&dPageIndex=0&dPageSize=25&dSearch=&selectedExam=825679&isEditExamMode=false
+
+
+DBs:
+LuminaryOne_regression_1.6.8.0RC5_MGH
+LuminaryOne
+
+npm run start-analytics
+dotnet watch run MainWeb.csproj /p:LuminaryAppType=Analytics

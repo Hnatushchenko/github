@@ -1,0 +1,31 @@
+I have this C# class.
+I want you to create a typescript interface from this c# class. based on the class name also create a string for file name for that typescript interface. Use this convention for generating file name: dashed between words, and words start from small letter. For example, if class name if CountWithPercentage, the file name would be count-with-percentage. also the interface members in ts must be seperated using ;, and start from small letter, and they must use this convention for members: thisIsMyMember. so each word starts from capital, except the first one. But the name of the interface itself must use PascalCase. Also add 'export' keyword before the 'interface' keyword. If I am going to send you an enum in c#, then convert it to enum on the frontend. So here is the c#. If I am sending you a ts interface, create a corresponding c# class. If possible, create a c# record:
+export interface DatabaseFieldMessageFieldPair {
+  databaseField: string;
+  messageField: string;
+}
+
+
+When I ask you to create c# record, you should create it like this
+public record UpsertCodeMappingRequest(string ExternalCodeSystem, string ExternalCode, string InnerCode, CodeMappingsCategory InnerCategory);
+meaning you should use this syntax, and not property syntax.
+
+
+
+Based on the name that I will privide you create a string for file name for that typescript interface. Use this convention for generating file name: dashed between words, and words start from small letter. For example, if class name if CountWithPercentage, the file name would be count-with-percentage.
+Name:
+HandlerActionMultipleSaveTo
+
+
+I am going to provide you with a text.
+you need to replace each space with the underscore (_)
+and you need to remove all quatos or special symbols.
+also you need to add this string to the beginngin of the result: 'feature/'
+so for example if I give you this text
+L1-2468 Patient History Module - By Question Tab UI
+you have to convert it to this
+feature/L1-2468_Patient_History_Module_-_By_Question_Tab_UI
+So there is the text.
+
+L1-2835 The error is shown after opening Departments tab of the Exam page
+Convert it please and show me the output only. Don't tell anything else.
