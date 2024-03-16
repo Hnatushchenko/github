@@ -1,0 +1,32 @@
+Unmerged work on github:
+
+Task from Eugene with recording time on History Tech Tab: feature/history_duration_time
+
+L1-2741 Patient History By Question Tab UI Improvements
+feature_team2/L1-2741_Patient_History_By_Question_Tab_UI_Improvements
+
+L1-2749 Patient History By Age UI Enhancements
+feature_team2/L1-2749_Patient_History_By_Age_UI_Enhancements
+
+L1-2366 Create library contract for NCCN
+feature/L1-2366_Create_library_contract_for_NCCN
+
+L1-2152 The tooltip for the metric value is incorrect when the 'Radiologist' filter is enabled
+feature_team1/L1-2152_The_tooltip_for_the_metric_value_is_incorrect_when_the_Radiologist_filter_is_enabled
+
+For Bogdan:
+L1-2829 Exams Count (Total) Wrong on Radiologist Detail Summary Report
+feature/L1-2829_Exams_Count_Total_Wrong_on_Radiologist_Detail_Summary_Report
+
+For Vlad:
+L1-2735 Documents Tab UI Improvements
+feature_team2/L1-2735_Documents_Tab_UI_Improvements
+
+
+Possibly gone:
+
+Patient Details Modal Improvement
+feature/patient_details_modal_improvement
+
+L1-1709 DayLight Saving and Timezone architecture simplification
+feature_team1/L1-1709_DayLight_Saving_and_Timezone_architecture_simplification

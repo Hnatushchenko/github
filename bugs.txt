@@ -1,0 +1,21 @@
+
+not fixed:
+
+Current:
+
+fixed:
+Add validation on the backend for HandlerDto. Copy it from frontend
+Child Table(Column): in Add rule ng select limited not all options are visible.
+Fix overflow of rules
+Data Point Group becomes empty
+Fix select a data point not required.
+In filter you can create Message | Exam | Equals | 2 without specifing the field.
+You can create an action witout specifing the action type.
+зайві опшени в ng select
+multiple same values when Exam Procedure
+padding,
+зробити input requred for delete
+
+not bugs:
+Record exists in database.
+не сейває видалення екшенів,
